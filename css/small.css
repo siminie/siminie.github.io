@@ -8,7 +8,7 @@ body {
 header,
 main,
 footer {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 
 }
@@ -19,7 +19,6 @@ header {
     align-items: center;
     padding: 10px;
     justify-content: space-around;
-    border-radius: 8px;
 }
 
 main,
@@ -28,22 +27,20 @@ footer {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 1.5rem;
     font-family: 'Lora', serif;
     text-align: center;
     color: whitesmoke;
 }
 
-img {
-    position: fixed;
-    top: 90px;
-    right: 18%;
-    box-shadow: 7px 7px 15px black;
+header img {
+    width: 200px;
+    height: auto;
 }
 
 h2 {
     color: #B5838D;
-    font-size: 25px;
+    font-size: 1rem;
     text-align: left;
     padding-top: 20px;
     padding-left: 10px;
@@ -67,7 +64,6 @@ ul {
 footer {
     background-color: #241F2D;
     color: white;
-    border-radius: 8px;
     text-align: center;
     padding-top: 30px;
     padding-right: 30px;
