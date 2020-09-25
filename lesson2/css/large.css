@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60em) {
+
+    header {
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    main section img {
+        width: 100%;
+      }
+
+    footer {
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    
+    }
