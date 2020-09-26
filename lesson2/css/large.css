@@ -17,6 +17,11 @@
         width: 100%;
       }
 
+      section:nth-child(3) {
+        grid-column: span 1;
+        }
+        
+        
     footer {
         font-size: 1rem;
         border-radius: 5px;

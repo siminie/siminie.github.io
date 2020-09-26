@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
 
 header {
     font-size: 1.3rem;
@@ -7,6 +7,12 @@ header {
 
 main {
     grid-template-columns: 1fr 1fr;
+
+
+}
+
+section:nth-child(3) {
+grid-column: span 2;
 }
 
 h2 {
