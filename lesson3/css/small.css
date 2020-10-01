@@ -1,0 +1,162 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #14213d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+    background-color: teal;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav>ul>li {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+nav>ul>li>a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #241F2D;
+    background-color: #d0c4ab;
+    border-radius: 5px;
+}
+
+
+.active {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.75rem;
+}
+
+main {
+    background-color: #e5e5e5;
+}
+
+main>article>img {
+    max-width: 100%;
+}
+
+main article {
+    margin: 0.5rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.cnt {
+    text-align: left;
+}
+
+h3,
+h4 {
+    font-size: 1rem;
+}
+
+footer>h4>a {
+    color: white;
+}
+
+ol>li {
+    font-size: 1.2rem;
+}
+
+.col1 {
+    background-color: #14213d;
+    color: white;
+}
+
+.col2 {
+    background-color: #9EC8E5;
+    color: black;
+}
+
+.col3 {
+    background-color: #A63A6B;
+    color: white;
+}
+
+.col4 {
+    background-color: #FFFAFF;
+    color: black;
+}
+
+.col5 {
+    background-color: #9882D9;
+    color: white;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    margin: 0 auto;
+    border: white solid 2px;
+}
+
+article>table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 3px;
+    margin: 0 auto;
+}
+
+#sitehd {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+}
+
+#hd2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+}
+
+#para {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+#footerhd {
+    font-family: 'David Libre', serif;
+    font-size: 22px;
+}

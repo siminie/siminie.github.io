@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simo's Weather Forecast Site Planning Document">
+    <title> Simone Weather Planning Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Simo's Weather Forecast</h1>
+        <h3>www.simoweatherforecast.org</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="target-audience.html">Target Audience</a></li>
+            <li><a class="active" href="#">Color Scheme</a></li>
+            <li><a href="typography.html">Typography</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <article>
+            <table>
+                <tr class="col1">
+                    <td>#14213d</td>
+                </tr>
+                <tr class="col2">
+                    <td>#9EC8E5</td>
+                </tr>
+                <tr class="col3">
+                    <td>#A63A6B</td>
+                </tr>
+                <tr class="col4">
+                    <td>#FFFAFF</td>
+                </tr>
+                <tr class="col5">
+                    <td>#1E1B18</td>
+                </tr>
+            </table>
+            </article>
+
+            <article>
+                <h2>Color Scheme & Elements</h2>
+                <table>
+                    <tr>
+                    <th>Element</th>
+                    <th>Assigned Color</th>
+                    </tr>
+                    <tr>
+                        <td>Header and Footer and Text</td>
+                        <td class="col1">Header and Footer</td>
+                    </tr>
+                    <tr>
+                        <td>Link hovers and Details</td>
+                        <td class="col5">Navigation and Link</td>
+                    </tr>
+                    <tr>
+                        <td>Background</td>
+                        <td class="col2">Background</td>
+                    </tr>
+                    <tr>
+                        <td>Headings</td>
+                        <td class="col3">Headings</td>
+                    </tr>
+                </table>
+                </article>
+    </main>
+
+    <footer>
+        <h4> &copy; <span id="demo"></span> | Simone Leia Joseph | South Africa, Pretoria | <a
+                href="https://www.byui.edu/online" target="_blank">
+                BYU-Idaho Online Learning</a> </h4>
+    </footer>
+
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.getFullYear();
+    </script>
+
+</body>
+
+</html>

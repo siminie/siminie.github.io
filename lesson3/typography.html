@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simo's Weather Forecast Site Planning Document">
+    <title> Simone Weather Planning Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Lora:wght@500&family=Noto+Serif&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Simo's Weather Forecast</h1>
+        <h3>www.simoweatherforecast.org</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="target-audience.html">Target Audience</a></li>
+            <li><a href="color-scheme.html">Color Scheme</a></li>
+            <li><a class="active" href="#">Typography</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <article>
+            <h2>Typography</h2>
+            <table>
+                <tr>
+                    <th>Element</th>
+                    <th>Font</th>
+                    <th>Size</th>
+                    <th>Sample Text</th>
+                </tr>
+
+                <tr>
+                    <td>Site Header</td>
+                    <td>Sansita Swashed</td>
+                    <td>60px</td>
+                    <td id="sitehd">Sample</td>
+                </tr>
+
+                <tr>
+                    <td>Heading 1</td>
+                    <td>Tenali Ramakrishna</td>
+                    <td>60px</td>
+                    <td id="sitehd">Sample</td>
+                </tr>
+
+                <tr>
+                    <td>Heading 2</td>
+                    <td>Noto Serif</td>
+                    <td>40px</td>
+                    <td id="hd2">Sample</td>
+                </tr>
+
+                <tr>
+                    <td>Paragraphs</td>
+                    <td>Lora</td>
+                    <td>30px</td>
+                    <td id="para">Sample</td>
+                </tr>
+
+                <tr>
+                    <td>Footer</td>
+                    <td>David Libre</td>
+                    <td>22px</td>
+                    <td id="footerhd">Sample</td>
+                </tr>
+            </table>
+        </article>
+    </main>
+
+    <footer>
+        <h4> &copy; <span id="demo"></span> | Simone Leia Joseph | South Africa, Pretoria | <a
+                href="https://www.byui.edu/online" target="_blank">
+                BYU-Idaho Online Learning</a> </h4>
+    </footer>
+
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.getFullYear();
+    </script>
+
+</body>
+
+</html>
