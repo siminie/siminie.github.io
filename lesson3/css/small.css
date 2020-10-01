@@ -141,7 +141,7 @@ article>table {
     margin: 0 auto;
 }
 
-#sitehd {
+.sitehd {
     font-family: 'Sansita Swashed', cursive;
     font-size: 60px;
 }
