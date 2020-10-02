@@ -133,12 +133,13 @@ td {
     padding: 10px;
     margin: 0 auto;
     border: white solid 2px;
-}
-
-article>table {
     font-family: Arial, Helvetica, sans-serif;
     border-spacing: 3px;
-    margin: 0 auto;
+    margin: 0 auto
+}
+
+.tb {
+  overflow-x: auto;
 }
 
 .sitehd {
