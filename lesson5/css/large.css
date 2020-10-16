@@ -1,0 +1,51 @@
+@media only screen and (min-width: 60em) {
+
+    main,
+    footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .sitehd {
+        font-size: 40px;
+    }
+
+    .heroimg {
+        box-shadow: 10px 0px 5px 0px #D8BFD8;
+    }
+
+    .summary {
+        position: absolute;
+        bottom: 350px;
+        margin-left: 50px;
+        background-color: whitesmoke;
+        opacity: 0.8;
+        text-align: left;
+        padding: 30px;
+    }
+
+    .container1 {
+        box-shadow: 10px 10px 5px 0px #D8BFD8;
+    }
+
+    .container2 {
+        margin-top: 40px;
+        box-shadow: 10px 10px 5px 0px #D8BFD8;
+    }
+
+    .container2 img {
+        float: right;
+        width: auto;
+        margin: 20px;
+    }
+
+    .container3 {
+        display: flex;
+    }
+
+    .container3 section,
+    picture {
+        box-shadow: 10px 0px 5px 0px #D8BFD8;
+    }
+
+}
