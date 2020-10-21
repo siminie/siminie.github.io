@@ -10,13 +10,18 @@
         font-size: 40px;
     }
 
+    .hero {
+       margin: 20px 0px 0px 0px;
+    }
+
     .heroimg {
         box-shadow: 10px 0px 5px 0px #D8BFD8;
     }
 
     .summary {
-        position: absolute;
-        bottom: 350px;
+        max-width: 200px;
+        position: relative;
+        bottom: 250px;
         margin-left: 50px;
         background-color: whitesmoke;
         opacity: 0.8;
