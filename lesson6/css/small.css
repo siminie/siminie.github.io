@@ -195,8 +195,6 @@ h4 {
 }
 
 .container3 section {
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 20px;
     padding: 10px;
     background-color: #E6E6FA;
     flex: 1;

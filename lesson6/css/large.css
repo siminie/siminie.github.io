@@ -47,6 +47,7 @@
     .container3 section,
     picture {
         box-shadow: 10px 0px 5px 0px #D8BFD8;
+        margin-top: 20px;
     }
 
 }
