@@ -22,4 +22,15 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+	.gallery {
+        display: grid;
+		grid-template-columns:  1fr 1fr; 
+        grid-gap: 25px;
+        margin-bottom: 25px;
+	}
+	
+	div picture img {
+		max-width: 100%;
+	}
 }

@@ -95,25 +95,40 @@ h1 {
     padding: 20px;
     color: #A63A6B;
 }
+
 .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin-bottom: 30px;
 }
 
-picture {
-    margin: 0;
+div h3 {
+    color: #14213d;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+picture img {
+    margin-top:0;
     padding: 0;
 }
+
 .container {
     text-align: center;
-    padding: 10px 20px;
-    margin: auto;
-    background-color: rebeccapurple;
+    margin-bottom: 30px;
     color: white;
-    margin: 0;
 }
 
+.container img[data-src] {
+    filter: blur(0.2em);
+}
+
+.container picture img {
+    filter: blur(0);
+    transition: filter 1s;
+}
 
 footer {
     background-color: #14213d;
