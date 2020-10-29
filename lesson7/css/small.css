@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#toggle2 {
+    display: none;
+    color: white;
+    background-color: #9882D9;
+    font-family: 'Noto Serif', serif;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    max-width: 100%;
+    background-color: #14213d;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header img {
+    padding: 5px 10px 5px 0;
+    max-width: 100%;
+    height: 100px;
+}
+
+nav {
+    margin: 0;
+    max-width: 100%;
+    background-color: #9882D9;
+    padding: 0;
+}
+
+nav>ul {
+    margin-top: 0px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+    padding: 20px;
+}
+
+.navigation a:hover {
+    background-color: #9EC8E5;
+    color: black;
+
+}
+
+.active {
+    color: black !important;
+    background-color: #9EC8E5;
+    text-decoration: overline black !important;
+}
+
+.responsive li {
+    display: block;
+}
+
+.sitehd,
+.motto {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px;
+    color: #A63A6B;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+picture {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}

@@ -7,19 +7,19 @@
     <meta name="description" content="Responsive Images and Fonts - Week 6.">
     <title>Preston Idaho</title>
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="/lesson6/css/small.css">
-    <link rel="stylesheet" href="/lesson6/css/medium.css">
-    <link rel="stylesheet" href="/lesson6/css/large.css">
+    <link rel="stylesheet" href="/lesson7/css/small.css">
+    <link rel="stylesheet" href="/lesson7/css/medium.css">
+    <link rel="stylesheet" href="/lesson7/css/large.css">
 </head>
 
 <body>
     <div id="toggle2">
         <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </div>
-    <script src="/lesson6/js/banner-6.js"></script>
+    <script src="/lesson5/js/banner.js"></script>
 
     <header>
-        <img src="/lesson6/images/logo-circle.png" alt="site logo of a cloud">
+        <img src="/lesson5/images/logo-circle.png" alt="site logo of a cloud">
         <section class="headings">
             <h1 class="sitehd">Simo's Weather Forecast</h1>
             <div class="motto">If the weather is too Hot, the Shade is your Spot.</div>
@@ -30,106 +30,48 @@
         <ul class="navigation">
             <li><a class="menu" href="#">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a class="active" href="#">Preston</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a class="active" href="#">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>Preston Idaho</h1>
-        <div class="hero">
+
+        <h1>Weather Gallery</h1>
+
+        <div class="gallery">
             <picture>
-                <source srcset="images/franklin-medium.jpg" media="(min-width:32.5em) and (max-width:45em )">
-                <source srcset="images/franklin-large.jpg" media="(min-width:45em)">
-                <img id="heroimg" src="images/franklin-small.jpg" alt="frank image">
-              </picture>
-            <section class="summary">
-                <h3>Weather Summary</h3>
-                <p>Currently: <span>Overcast</span>
-                    <br>
-                    High: <span id="temperature">48&#8457;</span>
-                    <br>
-                    Wind Chill: <span id="calculateChill"></span>
-                    <br>
-                    Humidity: <span>69%</span>
-                    <br>
-                    Wind Speed: <span id="windSpeed">5 mph</span>
-                </p>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/japan.jpg" alt="japan sunset">
+                <div class="container">
+                    <p>Japan Gate Way</p>
+                </div>
+            </picture>
 
-                <script src="/lesson6/js/windChill.js" onload="windChillInfo()"></script>
-            </section>
+            <picture>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/waves.jpg" alt="oceans waves">
+            </picture>
+
+            <picture>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/sky.jpg" alt="sky">
+            </picture>
+
+            <picture>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/lights.jpg" alt="fairy lights">
+            </picture>
+
+            <picture>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/crystal.jpg" alt="crystal block">
+            </picture>
+
+            <picture>
+                <img src="/lesson7/images/placeholder.jpg" data-src="/lesson7/images/plants.jpg" alt="pot plants">
+            </picture>
         </div>
 
-        <section class="container1">
-            <h2>Five Day Forecast</h2>
-
-            <div class="tb">
-                <table>
-                    <tr>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                    </tr>
-                    <tr>
-                        <td><img src="/lesson6/images/icon-4.png" alt="placeholder"></td>
-                        <td><img src="/lesson6/images/icon-4.png" alt="placeholder"></td>
-                        <td><img src="/lesson6/images/icon-1.png" alt="placeholder"></td>
-                        <td><img src="/lesson6/images/icon-2.png" alt="placeholder"></td>
-                        <td><img src="/lesson6/images/icon-3.png" alt="placeholder"></td>
-                    </tr>
-
-                    <tr>
-                        <td><span>85&#8457;</span></td>
-                        <td><span>75&#8457;</span></td>
-                        <td><span>60&#8457;</span></td>
-                        <td><span>65&#8457;</span></td>
-                        <td><span>62&#8457;</span></td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <div class="container2">
-            <h2>Growing A Cute Flower Garden</h2>
-            <img src="/lesson6/images/article.jpg" alt="lady harvesting crops">
-            <h4>- THE FARMHOUSE (Cathy)</h4>
-            <p>This summer we grew our first cut flower garden. And goodness, it brought so much joy to our home! A
-                reader told me, “vegetables nourish the body and flowers nourish the soul” and I so agree! Today I
-                wanted to share our experience growing a large cut flower garden. I’ll be talking about what we grew,
-                our layout/setup/irrigation, how much it all cost, the resources I found invaluable, tools of the trade,
-                and lots and lots of pretty flower <a
-                    href="https://www.thegritandpolish.com/blog/growing-a-cut-flower-garden"> ... Click here to read the
-                    Full Article!</a> </p>
-        </div>
-
-        <div class="container3">
-            <section>
-                <img src="/lesson6/images/preston-map.jpg" alt="preston map">
-            </section>
-
-            <section>
-                <h3>Contact Information</h3>
-                📍Temple Inn & Suites Headquarters<br>
-                355 Wisconsin Avenue <br>
-                Bethesda, MD 20814 <br>
-                📞215-829-9999 <br>
-                ✉info@templinn.com <br>
-
-                <a href="https://www.facebook.com" title="Check us out on Facebook!"><img
-                        src="/lesson6/images/facebook-icon.png" alt="facebook icon">
-                </a>
-                <a href="https://www.instagram.com" title="Follow us on Instagram!"><img
-                        src="/lesson6/images/instagram-icon.png" alt="instagram icon">
-                </a>
-                <a href="https://www.twitter.com" title="Visit us on Twitter!"><img
-                        src="/lesson6/images/twitter-icon.png" alt="twitter icon"></a>
-            </section>
-        </div>
+        <script src="/lesson7/js/lazyload.js"></script>
     </main>
 
     <footer>
@@ -138,7 +80,7 @@
     </footer>
     <script src="/lesson6/js/preston-6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/fonts.js"></script>
+    <script src="/lesson6/js/fonts.js"></script>
 </body>
 
 </html>
