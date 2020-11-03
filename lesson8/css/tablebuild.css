@@ -3,7 +3,7 @@ main {
 }
 
 table {
-    box-shadow : 10px 10px 10px #628ca6;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 
 table,
@@ -11,43 +11,42 @@ th,
 td {
     border-collapse: collapse;
     padding: 10px;
-    border:	#c7c6c6 solid 1.5px;
+    border: #c7c6c6 solid 1.5px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 
-th {
-    background-color: #7fb9c2;
+table>thead>tr>th {
     color: black;
+    background-color: #7fb9c2;
+    font-weight: bold;
     font-size: 25px;
-    font-weight: bold;
 }
 
-tr:nth-child(2) {
+
+th {
+    background-color: #628ca6;
     color: white;
-    background-color: #628ca6 !important;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 20px;
 }
 
- tr:nth-child(even) {
-    background-color: #e7ffed;
-    font-size: 15px;
-}
 
-tr:nth-child(odd) {
+tr {
     background-color: #e7f0ed;
     font-size: 15px;
 }
 
-#num {
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+    font-size: 15px;
+}
+
+#special {
     color: white;
     background-color: #628ca6 !important;
 }
 
-tr>td.special  {
-    font-style: italic;
-}
 
 tfoot>tr>td {
     background-color: #7fb9c2;
