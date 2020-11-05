@@ -1,0 +1,206 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#toggle2 {
+    display: none;
+    color: white;
+    background-color: #9882D9;
+    font-family: 'Noto Serif', serif;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    max-width: 100%;
+    background-color: #14213d;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header img {
+    padding: 5px 10px 5px 0;
+    max-width: 100%;
+    height: 100px;
+}
+
+nav {
+    margin: 0;
+    max-width: 100%;
+    background-color: #9882D9;
+    padding: 0;
+}
+
+nav>ul {
+    margin-top: 0px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+    padding: 20px;
+}
+
+.navigation a:hover {
+    background-color: #9EC8E5;
+    color: black;
+
+}
+
+.active {
+    color: black !important;
+    background-color: #9EC8E5;
+    text-decoration: overline black !important;
+}
+
+.responsive li {
+    display: block;
+}
+
+.sitehd,
+.motto {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px;
+    color: #A63A6B;
+}
+
+form fieldset {
+    margin: 25px;
+    border: #9EC8E5 solid 2px;
+    border-radius: 10px;
+    padding: 0px 20px 20px;
+}
+
+form legend {
+    color: #7562af;
+    font-family: 'Noto Serif', serif;  
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 20px;
+    color: #14213d;
+    font-size: 13px;
+    font-family: 'Lora', serif;
+}
+
+form label.mid {
+    font-size: 13px;
+    font-family: 'Lora', serif;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 12px;
+    border: grey solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    color:black;
+    width: 50%;
+    background-color: #ECE3F0;
+    margin-top: 5px;
+}
+
+form label.top input::placeholder{
+    color: black;
+}
+
+form label.sbs {
+    display: block;
+    padding: 10px;
+}
+
+form input.button {
+    border: none;
+    background-color: #9EC8E5;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 0px 28px 30px 28px;
+    width: 50%;
+    font-family: 'Lora', serif;
+}
+
+form input.button:hover {
+    background-color: #7562af;
+    color: white;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    background-color: #ECE3F0;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form label.top input:required {
+    border-right: 6px solid #A63A6B;
+}
+
+form label.top input:required:valid {
+    border-right: 6px solid #9EC8E5;
+}
+
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+
+h2 {
+    color: #A63A6B;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: #14213d;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+picture img {
+    width: 100%;
+    padding: 20px;
+}
