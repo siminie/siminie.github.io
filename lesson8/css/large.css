@@ -32,6 +32,7 @@
     form label.top input,
     form label.top select {
         font-size: 13px;
+        width: 50%;
 
     }
 

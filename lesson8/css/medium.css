@@ -35,9 +35,10 @@
 
     form label.top input,
     form label.top select {
-        font-size: 13px;
-
-    }
+		font-size: 13px;
+		width: 95%;
+	}
+	
 	form input.button {
 		width: 30%;
 	}
