@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-family: 'Piazzolla', sans-serif;
+    font-family: 'Merienda', cursive;
     color: #A45C40;
 }
 
@@ -34,13 +34,14 @@ main .cards section {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Laro', sans-serif;
 }
 
 main .cards section h2 {
     color: #C38370;
     font-size: 28px;
     margin: 5px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
 main .cards section img {

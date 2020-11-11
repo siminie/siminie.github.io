@@ -29,3 +29,9 @@ fetch(requestURL)
             document.querySelector('div.cards').appendChild(card);
         }
     });
+
+    WebFont.load({
+        google: {
+          families: ['Piazzolla', 'Lora', 'Merienda']
+        }
+      });
