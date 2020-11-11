@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E4B7A0;
+}
+
+h1 {
+    font-family: 'Piazzolla', sans-serif;
+    color: #A45C40;
+}
+
+main div.cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+main .cards section {
+    background-color: #F6EEE0;
+    margin: 5px;
+    min-width: 90%;
+    min-height: 25rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .cards section h2 {
+    color: #C38370;
+    font-size: 28px;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .cards section img {
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 5px 10px 10px #C38370;
+}
+
+footer {
+    background-color: #A45C40;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width: 32.5em) {
+
+    main div.cards {
+        display: grid;
+        grid-template-columns: 260px 260px;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+    }
+
+    main .cards section h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+    main div.cards {
+        display: grid;
+        grid-template-columns: 420px 420px 420px 420px;
+        grid-template-rows: 460px 460px 460px 460px 460px;
+        grid-gap: 5px;
+    }
+
+
+
+}
