@@ -12,7 +12,7 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             let birth = document.createElement('p');
             let placebirth = document.createElement('p');
-            let image = document.createElement('img')
+            let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             birth.textContent = 'Date Of Birth: ' + prophets[i].birthdate;

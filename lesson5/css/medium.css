@@ -28,4 +28,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+	.container2 img {
+		width: 50%;
+		margin-left: 200px;
+      
+    }
 }
