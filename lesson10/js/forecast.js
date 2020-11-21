@@ -1,4 +1,4 @@
-const apiUrl = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=da128f49ff6764aa1db304e6e5202919&units=imperial";
+const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=da128f49ff6764aa1db304e6e5202919&units=imperial";
 
 const dayNames = [
     "Sunday",
