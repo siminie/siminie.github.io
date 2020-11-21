@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em) {
+
+	main,
+	footer {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.placeholderbox,
+	h2 {
+		align-items: center;
+		text-align: center;
+	}
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.container2 img {
+		width: 50%;
+		margin-left: 200px;
+      
+    }
+}
