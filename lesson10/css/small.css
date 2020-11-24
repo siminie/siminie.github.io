@@ -134,7 +134,7 @@ h2 {
 .container1 {
     background-color: #E6E6FA;
     text-align: center;
-    padding: 1px 0px 2px 0px;
+    padding: 1px 0px 20px 0px;
     border-radius: 10px;
 }
 
@@ -160,8 +160,7 @@ tr {
 }
 
 .tb {
-    overflow-x: auto;
-    padding: 20px;
+    display: none;
 }
 
 h4 {

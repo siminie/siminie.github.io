@@ -33,5 +33,9 @@
 		width: 50%;
 		margin-left: 200px;
       
-    }
+	}
+	
+	.tb {
+		display: contents;
+	}
 }

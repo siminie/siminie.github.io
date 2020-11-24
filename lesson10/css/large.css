@@ -33,6 +33,10 @@
         box-shadow: 10px 10px 5px 0px #D8BFD8;
     }
 
+    .tb {
+        display: contents;
+    }
+
     .container2 {
         margin-top: 40px;
         box-shadow: 10px 10px 5px 0px #D8BFD8;
