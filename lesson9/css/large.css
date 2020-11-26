@@ -1,7 +1,6 @@
 @media only screen and (min-width: 60em) {
 
-    main,
-    footer {
+    main {
         max-width: 1280px;
         margin: 0 auto;
     }
@@ -11,22 +10,15 @@
     }
 
     .hero {
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 40px 0px;
     }
 
     .heroimg {
         box-shadow: 10px 0px 5px 0px #D8BFD8;
     }
 
-    .summary {
-        max-width: 200px;
-        position: relative;
-        bottom: 250px;
-        margin-left: 50px;
-        background-color: whitesmoke;
-        opacity: 0.8;
-        text-align: left;
-        padding: 30px;
+    h1 {
+        font-size: 25px;
     }
 
     .container1 {
@@ -55,8 +47,13 @@
         padding: 40px;
     }
 
-    .container2 h4 {
+    .container2 h2, h4 {
         text-align: left;
+        padding-left: 30px;
+    }
+
+    .container2 h2 {
+        font-size: 23px;
     }
 
     .container2 img {
@@ -75,4 +72,7 @@
         margin-top: 50px;
     }
 
+    footer {
+        max-width: 100%;
+    }
 }

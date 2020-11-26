@@ -94,6 +94,8 @@ h1 {
     margin: auto;
     padding: 20px;
     color: #A63A6B;
+    font-family: 'Lora', serif;
+    font-size: 24px;
 }
 
 .hero {
@@ -129,6 +131,8 @@ h3 {
 h2 {
     margin-top: 10px;
     color: #A63A6B;
+    font-family: 'Lora', serif;
+    font-size: 22px;
 }
 
 .container1 {
@@ -167,7 +171,7 @@ h4 {
     text-align: center;
     font-style: italic;
     color: #800080;
-
+    font-family: 'Noto Serif', serif;
 }
 
 .container2 {
@@ -175,6 +179,10 @@ h4 {
     margin-top: 20px;
     background-color: #E6E6FA;
     padding-top: 10px;
+}
+
+.container2 h2{
+    text-align: center;
 }
 
 .container2 p {
@@ -188,6 +196,10 @@ h4 {
     border-radius: 10px;
 }
 
+.container2 a {
+    color: #A63A6B;
+}
+
 .container3 {
     display: flexbox;
     text-align: center;
@@ -197,6 +209,27 @@ h4 {
     padding: 10px;
     background-color: #E6E6FA;
     flex: 1;
+    font-family: 'Noto Serif', serif;
+}
+
+.containerE {
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #E6E6FA;
+    padding: 30px;
+    text-align: center;
+}
+
+.events p {
+    font-family: 'Noto Serif', serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.events hr {
+   border: #9882D9 1px solid;
+   width: 200px;
 }
 
 section img {

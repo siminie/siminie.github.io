@@ -1,7 +1,6 @@
 @media only screen and (min-width: 60em) {
 
-    main,
-    footer {
+    main {
         max-width: 1280px;
         margin: auto;
     }
@@ -24,7 +23,7 @@
 
     .container:hover {
        box-shadow: 5px 5px 5px 5px #D8BFD8;
-       text-shadow: 0 0 3px #26f7fd;
+       text-shadow: 0 0 3px #f8519c;
     }
 
 }

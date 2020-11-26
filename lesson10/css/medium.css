@@ -1,7 +1,6 @@
 @media only screen and (min-width: 32.5em) {
 
-	main,
-	footer {
+	main{
 		max-width: 800px;
 		margin: 0 auto;
 	}
@@ -37,5 +36,13 @@
 	
 	.tb {
 		display: contents;
+	}
+
+	.container2 {
+		margin-top: 40px;
+	}
+
+	.containerE {
+       margin-bottom: 40px;
 	}
 }

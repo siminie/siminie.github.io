@@ -186,6 +186,14 @@ footer {
     font-size: 15px;
 }
 
+h1 {
+    margin: auto;
+    padding: 20px;
+    color: #A63A6B;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
 h2 {
     color: #A63A6B;
     font-family: 'Noto Serif', serif;

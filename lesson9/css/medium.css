@@ -1,7 +1,6 @@
 @media only screen and (min-width: 35em) {
 
-	main,
-	footer {
+	main{
 		max-width: 800px;
 		margin: 0 auto;
 	}
@@ -50,8 +49,9 @@
 	.container1 section h4 {
 		grid-column: 1;
 		grid-row: 2;
-		font-size: 18px;
+		font-size: 15px;
 		font-style: italic;
+		padding: 0;
 	}
 
 	.container1 section p {
@@ -94,8 +94,4 @@
 		margin-left: 200px;
       
 	}
-
-	.container2 h2, h4 {
-        text-align: center;
-    }
 }

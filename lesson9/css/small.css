@@ -94,10 +94,12 @@ h1 {
     margin: auto;
     padding: 20px;
     color: #A63A6B;
+    font-family: 'Lora', serif;
+    font-size: 24px;
 }
 
 .hero {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .heroimg {
@@ -106,37 +108,24 @@ h1 {
     border-radius: 10px;
 }
 
-.summary {
-    display: flexbox;
-    background-color: #E6E6FA;
-    padding: 10px;
-    border-radius: 10px;
+h2 {
+    margin-top: 10px;
+    color: #A63A6B;
     text-align: center;
-    margin-top: 20px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
 }
 
-.summary p {
-    font-family: 'Noto Serif', serif;
-    font-size: 15px;
-}
-
-.summary p span,
 h3 {
     color: #9882D9;
     font-family: 'Lora', serif;
 }
 
-h2 {
-    margin-top: 10px;
-    color: #A63A6B;
-    text-align: center;
-}
-
 h4 {
-    text-align: center;
     font-style: italic;
     color: #800080;
-
+    text-align: center;
+    font-family: 'Noto Serif', serif;
 }
 
 .container1 {
@@ -153,6 +142,11 @@ h4 {
     text-align: center;
     gap: 20px;
     padding: 20px;
+}
+
+.cards h4 {
+    text-align: center;
+
 }
 
 .container1 section {
@@ -184,6 +178,14 @@ h4 {
     border-radius: 10px;
 }
 
+.container2 h2 {
+    text-align: center;
+}
+
+.container2 a {
+    color: #A63A6B;
+}
+
 .container3 {
     display: flexbox;
     text-align: center;
@@ -193,8 +195,8 @@ h4 {
     padding: 20px;
     background-color: #E6E6FA;
     flex: 1;
+    font-family: 'Noto Serif', serif;
 }
-
 
 footer {
     background-color: #14213d;

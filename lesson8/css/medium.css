@@ -1,7 +1,6 @@
 @media only screen and (min-width: 32.5em) {
 
-	main,
-	footer {
+	main {
 		max-width: 800px;
 		margin: 0 auto;
 	}
@@ -24,7 +23,7 @@
 	}
 
 	form legend {
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	form label.top,
