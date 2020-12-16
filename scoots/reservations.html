@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots Reservations and Rental Agreement Page.">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../Scoots/css/small.css">
+    <link rel="stylesheet" href="../Scoots/css/medium.css">
+    <link rel="stylesheet" href="../Scoots/css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="../scoots/images/logo.png" alt="site logo for scoots">
+        <section class="headings">
+            <h1 class="sitehd">Scoots</h1>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a class="active" href="#">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="div4">
+            <h1>Make your Reservations!</h1>
+
+            <h2>Rental Agreement</h2>
+            <p>Once your reservation has been made, a rental agreement will be emailed to you. Which will include all
+                your detailed information. Please fill in your rental agreement right away and either bring it to our
+                offices or email it with your customer code that will be sent when your resevation has been confirmed with us. </p>
+
+        </section>
+
+        <h2>Rental Form</h2>
+
+        <form method="get" action="frthanks.html">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label class="top">*Full Name:
+                    <input type="text" name="fullname" required pattern="[A-z\s]{5,}" placeholder="Full Name"></label>
+
+                <label class="top">Email:
+                    <input type="email" name="email" placeholder="user@gmail.com"></label>
+
+                <label class="top">*Phone number:
+                    <input type="tel" name="phonenumber" required></label>
+
+                <label class="top">Home State or Country:<br><textarea name="textArea"></textarea>
+                </label>
+
+                <label class="top">Curise Line (Optional):<br><textarea name="textArea"></textarea>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Rental Information</legend>
+
+                <label class="top">Rental Type:
+                    <input type="text" name="rentaltype" list="rentaltype">
+                    <datalist id="rentaltype">
+                        <option value="Honda Metro Scooter">
+                        <option value="Honda Dio Scooter">
+                        <option value="Honda PCX150 Scooter">
+                        <option value="Honda Pioneer ATV">
+                        <option value="Jeep Wrangler - 4 door with a/c">
+                        <option value="Jeep Wrangler - 2 door"></option>
+                    </datalist>
+                </label>
+
+                <label class="top">Rental Date Start:
+                    <input type="date" name="date"></label>
+
+                <label class="top">Rental Date End:
+                    <input type="date" name="date"></label>
+
+                <label class="top">Number of Vehicles Requested:
+                    <input type="number" name="number" min="1" max="5"> </label>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Additional Details / Instructions</legend>
+                <label class="top">Notes:<br><textarea name="textArea"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" name="button" value="Submit Report" class="button">
+        </form>
+
+    </main>
+
+    <footer>
+        &copy; Scoots Reservations and Rentals | All Rights Reserved | Simone Leia Joseph | Current Date: <span
+            id="currentDate"> </span>
+    </footer>
+
+    <script src="/scoots/js/currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/scoots/js/stfonts.js"></script>
+</body>
+
+</html>

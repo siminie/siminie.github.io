@@ -1,0 +1,166 @@
+@media only screen and (min-width: 60em) {
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  html,
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .sitehd {
+    font-size: 50px;
+  }
+
+  .motto {
+    color: #3A6EA5;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .summary {
+    text-align: center;
+    padding: 25px;
+  }
+
+  .ht {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .tb {
+    display: contents;
+    margin: 20px;
+  }
+
+  .tb h2 {
+    color: #DF362D;
+  }
+
+  .ghd {
+    border-style: hidden hidden dotted hidden;
+    border-color: #5289B5;
+    padding-bottom: 40px;
+  }
+
+  .ghd h1 {
+    padding-top: 20px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 350px 350px;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .gallery img {
+    margin: auto;
+    width: 95%;
+  }
+
+  /* ______________________ RENTAL PAGE ______________________ */
+
+  .div4 {
+    margin: 0;
+  }
+
+  .div4 ul li {
+    margin-left: 180px;
+    line-height: 25px;
+  }
+
+  .scoots img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  /* ______________________ RESERVATION PAGE ______________________ */
+
+  form legend {
+    font-size: 20px;
+  }
+
+  form input.button {
+    width: 40%;
+    margin: 0px 28px 40px 28px
+  }
+
+  form label.top,
+  form div {
+    font-size: 15px;
+
+  }
+
+  form label.mid {
+    font-size: 15px;
+  }
+
+  form label.top input,
+  form label.top select {
+    font-size: 13px;
+    width: 80%;
+
+  }
+
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
+
+  /* ______________________ TOURS PAGE ______________________ */
+  .div6 ul li {
+    margin-left: 330px;
+    line-height: 25px;
+  }
+
+  .div7 {
+    display: block;
+  }
+
+  .div7 p {
+    line-height: 28px;
+  }
+
+  .div7 img {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+
+  .div8 p {
+    line-height: 28px;
+  }
+
+  .div8 img {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+
+
+  /* ______________________ CONTACT PAGE ______________________ */
+
+  .div9 h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .div10 img {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+
+}
