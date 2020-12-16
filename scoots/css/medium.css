@@ -6,7 +6,7 @@
 	}
 
 	.motto {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	h1 {
@@ -39,25 +39,7 @@
 		display: contents;
 	}
 
-	.ghd {
-		border-style: hidden hidden dotted hidden;
-		border-color: #5289B5;
-		padding-bottom: 40px;
-	}
-
-	.ghd h1 {
-		padding-top: 20px;
-	}
-
-	.gallery {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-gap: 20px;
-		padding: 10px;
-	}
-
 	.gallery img {
-		margin: auto;
 		width: 80%;
 	}
 
@@ -68,8 +50,6 @@
 	}
 
 	.scoots img {
-		display: block;
-		margin: auto;
 		width: 70%;
 	}
 
@@ -111,7 +91,6 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 25px;
-		padding: 20px;
 		text-align: left;
 	}
 
@@ -121,17 +100,18 @@
 	}
 
 	.div8 img {
-		padding: 20px;
-		margin-left: 20px;
-		width: 90%;
+		width: 60%;
+		margin: auto;
 	}
 
 	/* ______________________ CONTACT PAGE ______________________ */
 
 	.div10 img {
-		display: block;
-		margin: auto;
 		width: 50%;
+	}
+
+	footer {
+		font-size: 12px;
 	}
 
 }

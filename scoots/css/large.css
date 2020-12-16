@@ -5,28 +5,31 @@
     margin: 0 auto;
   }
 
-  html,
-  body {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-  }
-
   .sitehd {
     font-size: 50px;
   }
 
   .motto {
-    color: #3A6EA5;
     font-size: 30px;
     text-align: center;
     padding: 40px;
   }
 
   .summary {
-    text-align: center;
     padding: 25px;
   }
+
+  .summary p {
+    font-size: 16px;
+}
+
+.summary p span {
+  font-size: 16px;
+}
+
+.summary h3 {
+  font-size: 18px;
+}
 
   .ht {
     text-align: center;
@@ -35,8 +38,12 @@
   h1 {
     font-size: 25px;
     text-align: center;
-    padding: 20px;
   }
+
+  h2 {
+    font-size: 22px;
+
+}
 
   .tb {
     display: contents;
@@ -47,28 +54,37 @@
     color: #DF362D;
   }
 
+  .div1 ul li {
+    font-size: 16px;
+  }
+
   .ghd {
     border-style: hidden hidden dotted hidden;
     border-color: #5289B5;
     padding-bottom: 40px;
   }
 
-  .ghd h1 {
-    padding-top: 20px;
-  }
-
   .gallery {
     display: grid;
     grid-template-columns: 480px 480px;
-    grid-template-rows: 350px 350px;
-    grid-gap: 20px;
-    padding: 10px;
+    grid-template-rows: 320px 320px;
   }
 
   .gallery img {
-    margin: auto;
     width: 95%;
   }
+
+  footer {
+		font-size: 15px;
+  }
+  
+  .div3 p {
+   font-size: 15px;
+}
+
+.div3 h3 {
+  font-size: 18px;
+}
 
   /* ______________________ RENTAL PAGE ______________________ */
 
@@ -79,11 +95,14 @@
   .div4 ul li {
     margin-left: 180px;
     line-height: 25px;
+    font-size: 15px;
   }
 
+  .scoots h3 {
+    font-size: 18px;
+}
+
   .scoots img {
-    display: block;
-    margin: auto;
     width: 50%;
   }
 
@@ -121,9 +140,11 @@
   }
 
   /* ______________________ TOURS PAGE ______________________ */
+  
   .div6 ul li {
     margin-left: 330px;
     line-height: 25px;
+      font-size: 15px;
   }
 
   .div7 {
@@ -132,15 +153,25 @@
 
   .div7 p {
     line-height: 28px;
+    font-size: 15px;
   }
+
+  .div7 h3 {
+    font-size: 18px;
+}
 
   .div7 img {
     width: 50%;
     padding-bottom: 40px;
   }
 
+  .div8 h2 {
+    font-size: 22px;
+}
+
   .div8 p {
     line-height: 28px;
+    font-size: 15px;
   }
 
   .div8 img {
@@ -158,8 +189,6 @@
   }
 
   .div10 img {
-    display: block;
-    margin: auto;
     width: 40%;
   }
 

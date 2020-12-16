@@ -11,8 +11,7 @@ body {
 
 html,
 body {
-    width: 100vw;
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -91,13 +90,15 @@ nav>ul {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+    font-size: 35px;
 }
 
 .motto {
-    color: #5289B5;
+    color: #3A6EA5;
     font-family: 'Paytone One', sans-serif;
     padding: 20px;
     font-size: 25px;
+    text-align: left;
 }
 
 .ht {
@@ -116,7 +117,7 @@ h1 {
     padding: 20px;
     color: #DF362D;
     font-family: 'Noto Sans JP', serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .heroimg {
@@ -130,13 +131,13 @@ h1 {
     padding: 20px;
     text-align: center;
     border-style: hidden hidden dotted hidden;
-    border-color: #5289B5;
+    border-color: #3A6EA5;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .summary p {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .summary p span,
@@ -144,12 +145,17 @@ h3 {
     color: #DF362D;
     font-family: 'Noto Sans JP', serif;
     margin: 0;
+    font-size: 13px;
+}
+
+.summary h3 {
+    font-size: 15px;
 }
 
 h2 {
     color: #3A6EA5;
     font-family: 'Noto Sans JP', serif;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 20px;
     margin-left: 20px;
 }
@@ -166,11 +172,21 @@ h2 {
 .div1 ul li {
     text-align: center;
     list-style: none;
+    font-size: 13px;
 }
 
 .div1 h2 {
     margin: 0;
     padding-top: 8px;
+}
+
+.ghd h1 {
+    padding-top: 20px;
+}
+
+.ghd {
+    border-style: hidden hidden hidden hidden;
+    border-color: #5289B5;
 }
 
 .gallery {
@@ -211,6 +227,7 @@ tr {
 
 .tb {
     display: none;
+    border-style: hidden hidden hidden hidden;
 }
 
 .div3 {
@@ -221,6 +238,11 @@ tr {
     border-style: dotted hidden hidden hidden;
     border-color: #5289B5;
     font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+}
+
+.div3 h3 {
+    font-size: 15px;
 }
 
 footer {
@@ -229,8 +251,11 @@ footer {
     text-align: center;
     padding: 40px;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 15px;
-    width: 100% !important;
+    font-size: 13px;
+}
+
+footer a {
+    color: #AFD8F2;
 }
 
 /* ______________________ RENTAL PAGE ______________________ */
@@ -240,6 +265,9 @@ footer {
     border-color: #5289B5;
     padding: 20px;
     font-family: 'Merriweather', serif;
+    text-align: left;
+    margin: 0px 30px 40px 30px;
+
 }
 
 .div4 p{
@@ -249,9 +277,10 @@ footer {
 
 .div4 ul li {
     line-height: 28px;
+    font-size: 13px;
 }
 
-.div4 h2 {
+.div4 h1 {
     margin-left: 20px;
     padding: 2px;
 }
@@ -272,6 +301,7 @@ footer {
     text-align: center;
     padding: 15px;
     color: #3A6EA5;
+    font-size: 15px;
 }
 
 .container {
@@ -279,11 +309,6 @@ footer {
 }
 
 /* ______________________ RESERVATION PAGE ______________________ */
-
-.div4 {
-    text-align: left;
-    margin: 0px 30px 40px 30px;
-}
 
 form fieldset {
     margin: 25px;
@@ -385,6 +410,7 @@ form label.top input:required:valid {
 
 .div6 ul li {
     line-height: 28px;
+        font-size: 13px;
 }
 
 .div7 {
@@ -398,8 +424,12 @@ form label.top input:required:valid {
     font-family: 'Merriweather', serif;
 }
 
+.div7 h3 {
+        font-size: 15px;
+}
+
 .div7 p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 25px;
 }
 
@@ -407,9 +437,12 @@ form label.top input:required:valid {
     width: 100%;
 }
 
+.div8 h2 {
+    font-size: 15px;
+}
 .div8 p {
     font-family: 'Merriweather', serif;
-    font-size: 15px;
+    font-size: 13px;
     margin: 10px;
     padding: 10px;
     line-height: 25px;
@@ -450,5 +483,5 @@ a {
 .div10 img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 70%;
 }
